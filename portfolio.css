@@ -1,0 +1,128 @@
+*{
+    background-color: #050A30;
+    color: white;
+}
+.navbar-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px !important;
+    padding-left: 30px;
+    font-weight: bold;
+    color: rgb(34 211 238);
+    text-decoration: none;
+}
+.link-icons-1{
+    font-size: 50px;
+    text-decoration:none;
+}
+.link-icons-1 i{
+    padding: 20px;
+}
+.link-icons-1 i:hover{
+    color: rgb(227, 91, 136);
+    transition: background 0.3s ease !important;
+    
+}
+.nav-item .nav-link
+{
+    color: white !important;
+    font-size: 15px;
+    padding: 30px !important;
+    background-color: #050A30;
+}
+.heady{
+    display: flex;
+    flex-direction: row;
+}
+.resume {
+    float: inline-end;
+    padding-right: 50px !important;
+    padding-top: 50px;
+}
+.resumebtn{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top:40px;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(45deg, #ff0066, #ff99cc);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease !important;
+}
+.resumebtn:hover {
+    background: linear-gradient(45deg, #ff99cc, #ff0066);
+    color: white;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 80px !important;
+}
+.abt1 img:hover{
+    transform: scale(1.1) !important; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.abt2{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    margin-left: 200px;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+#scrollspyHeading2{
+    padding-left: 100px;
+}
+.pbnames{
+    margin-bottom: -2px;
+}
+.prol{
+    background-color:palevioletred  !important;
+}
+.frol{
+    background-color: palevioletred  !important;
+}
+.nt{
+    background-color: rgb(32, 114, 5)  !important;
+}
+.card-header{
+    color:rgb(237, 170, 12) !important;
+    text-align: center;
+    background-color: #050A30 !important;
+}
+.card {
+    /* Your existing styles for .card */
+    border: 2px solid transparent; /* Start with a transparent border */
+    transition: border-color 0.8s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow to create the popping out effect */
+}
+
+.card:hover {
+    border-image: linear-gradient(to right, #6feeea, #07dcd9);
+    border-image-slice: 20; /* Increase the width of the gradient */
+    box-shadow: 10px 10px 10px  rgba(23, 196, 223, 0.2); /* Enhance the box shadow on hover */
+}
+.carousel-item img {
+    border: 2px solid transparent; /* Initial border */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Initial box shadow */
+    animation: neon-border 2s linear infinite alternate; /* Animation for neon effect */
+  }
+
+  /* Keyframes for the neon effect */
+  @keyframes neon-border {
+    0% {
+      border-color: transparent;
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+    100% {
+      border-color: rgba(0, 0, 255, 0.8);
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    }
+  }
