@@ -126,3 +126,102 @@
       box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
     }
   }
+/* Media query for devices with a maximum width of 768px (tablets and below) */
+@media (max-width: 768px) {
+    .navbar-name {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .nav-item .nav-link {
+        font-size: 14px;
+        padding: 15px;
+    }
+    .heady {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .intro {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .intro h1 {
+        font-size: 30px;
+    }
+    .intro h2 {
+        font-size: 20px;
+    }
+    .resumeimg {
+        width: 100%;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .abt1 img {
+        width: 100px;
+    }
+    .abt2 {
+        padding-left: 0;
+        padding-top: 20px;
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .skills .row > div {
+        padding: 0 20px;
+    }
+    .progress-bar {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .card-header {
+        text-align: center;
+    }
+    .carousel-item img {
+        width: 100%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+/* Media query for devices with a maximum width of 576px (phones and below) */
+@media (max-width: 576px) {
+    .navbar-name {
+        font-size: 16px;
+    }
+    .nav-item .nav-link {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .intro h1 {
+        font-size: 24px;
+    }
+    .intro h2 {
+        font-size: 18px;
+    }
+    .link-icons-1 {
+        font-size: 30px;
+    }
+    .about {
+        padding: 10px;
+    }
+    .abt2 {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+    .card-header {
+        font-size: 14px;
+    }
+}
